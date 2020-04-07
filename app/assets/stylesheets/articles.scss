@@ -1,0 +1,22 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.navbar {
+  background: #D2D6EF;
+  border: 1px solid transparent;
+  height: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+#form {
+  position: relative;
+  justify-content: center;
+  padding: 100px;
+}

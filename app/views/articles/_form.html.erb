@@ -1,0 +1,13 @@
+<div class="container" id="form">
+  <%= simple_form_for(@article) do |f| %>
+   <%= f.input :title %>
+   <%= f.input :content %>
+   <%= f.submit %>
+  <% end %>
+</div>
+
+<div id="back">
+  <%= link_to articles_path do %>
+  <i class="fas fa-arrow-left"></i>
+  <% end %>
+</div>
